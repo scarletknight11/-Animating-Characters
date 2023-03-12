@@ -1,1 +1,1 @@
-# -Animating-Characters
+# Animating-Characters
