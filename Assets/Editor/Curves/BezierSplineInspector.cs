@@ -102,7 +102,7 @@ public class BezierSplineInspector : Editor {
         if(p == 0) {
             zoom *= 2f;
         }
-        if (Handles.Button(point, q, handleSize * zoom, pickSize, Handles.DotCap)) {
+        if (Handles.Button(point, q, handleSize * zoom, pickSize, Handles.DotHandleCap)) {
             selectedIndex = p;
         }
 		// refresh point in inspector - such that it is updated on the GUI upon selection

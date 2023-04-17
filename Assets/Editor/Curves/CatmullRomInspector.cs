@@ -84,7 +84,7 @@ public class CatmullRomInspector : Editor {
 
         Vector3 point = t.TransformPoint(spline.GetPoint(index));
         float firstPoint = index == 0 ? 2f : 1f;
-        if (Handles.Button(point, q, 0.2f * firstPoint, 0.6f, Handles.DotCap)) {
+        if (Handles.Button(point, q, 0.2f * firstPoint, 0.6f, Handles.DotHandleCap)) {
             selectedIndex = index;
         }
 
