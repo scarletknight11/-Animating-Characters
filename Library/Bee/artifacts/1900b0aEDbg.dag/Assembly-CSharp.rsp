@@ -118,6 +118,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:CROSS_PLATFORM_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -367,17 +368,16 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/1.3 - Core Concepts Animation Blending/Scripts/BlendingExample.cs"
-"Assets/1.3 - Core Concepts Animation Blending/Scripts/Testing.cs"
-"Assets/2.7 - Creating Animation Events/Scripts/ParticleSystemPlayer.cs"
-"Assets/3.3 - Creating and configuring Animator States/Scripts/SpeedSetter.cs"
-"Assets/3.4 - Creating and configuring Blend Trees/Scripts/CameraFollow.cs"
-"Assets/3.4 - Creating and configuring Blend Trees/Scripts/SpeedControl.cs"
-"Assets/3.4 - Creating and configuring Blend Trees/Scripts/SpeedTurnControl.cs"
-"Assets/3.7 - Creating and configuring Animator Layers/Scripts/LayerWeightSetter.cs"
-"Assets/4.1 - Introduction to general animation scripting/FlowControlExample.cs"
-"Assets/4.1 - Introduction to general animation scripting/SetParametersExample.cs"
-"Assets/4.2 - Introduction to Humanoid-specific animation scripting/Scripts/VaultTargetMatching.cs"
+"Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs"
+"Assets/SampleScenes/Menu/Scripts/PauseMenu.cs"
+"Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs"
+"Assets/SampleScenes/Scripts/CameraSwitch.cs"
+"Assets/SampleScenes/Scripts/LevelReset.cs"
+"Assets/SampleScenes/Scripts/ParticleSceneControls.cs"
+"Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs"
+"Assets/SampleScenes/Scripts/SlowMoButton.cs"
+"Assets/Scripts/AnimationMovement.cs"
+"Assets/Scripts/ClickToMove.cs"
 "Assets/Scripts/Curves/BezierSpline.cs"
 "Assets/Scripts/Curves/CatmullRomSpline.cs"
 "Assets/Scripts/Curves/CubicBezierCurve.cs"
